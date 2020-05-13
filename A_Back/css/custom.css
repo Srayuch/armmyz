@@ -1,0 +1,92 @@
+/* your custom styles here */
+body{ font-family: 'Mitr'; }
+.Mitr { font-family: 'Mitr'; }
+.tp-bullet { display: none }
+.ccha {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none;  
+	-moz-user-select: none; 
+	-ms-user-select: none;
+	user-select: none; 
+}
+
+#top10 {
+	padding-top:20px;
+}
+div.userinfo {
+	float: right;
+	position: relative;
+	padding-top: 20px;
+}
+div.userinfo span {
+	font-size: 13px;
+	font-weight: bold;
+	padding-right: 20px;
+}
+div.userinfo  ul {
+	margin-left: -35px;
+}
+#lc {
+	position:fixed;
+	z-index:101;
+	left: 10px;
+	bottom: 0px;
+}
+.thead {
+	width: 500px;
+}
+.thead > tr > th {
+	text-align:left;
+	font-size:16px;
+	font-family:Mitr;
+	color:#999;
+}
+.tbody{
+	width: 500px;
+}
+.tbody > tr > td {
+	text-align:left;
+	font-size:14px;
+	font-family:Mitr;
+	color:#999;
+}
+div.box {
+	-webkit-box-shadow: 5px 5px 30px -5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 30px -5px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 30px -5px rgba(0,0,0,0.5);
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	padding: 20px 20px 20px 20px;
+	border: 0px solid #000000;
+	background-color: #FFFFFF;
+	width: 250px;
+	float:left;
+	text-align: center;
+	margin: 15px 15px 15px 15px;
+}
+div.box button {
+	font-family: Mitr;
+	font-size: 15px;
+}
+div.img-resize {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	overflow:hidden;
+	width: 200px;
+	height:120px;
+	margin:auto;
+}
+div.img-resize img{
+	width: auto;
+	height:120px;
+}
+.spc-detail {
+	font-size: 10px;
+}
+.spc-name {
+	font-weight: bold;
+	font-size: 14px;
+}
